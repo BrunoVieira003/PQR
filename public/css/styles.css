@@ -16,26 +16,26 @@ body {
     background-color: #fff;
 }
 
-.login-section, .image-section {
+.login-section, .form-section, .image-section {
     padding: 2rem;
     flex: 1;
 }
 
-.login-section {
+.login-section, .form-section {
     background-color: #fff;
 }
 
-.login-section h1 {
+.login-section h1, .form-section h1 {
     margin-bottom: 2rem;
 }
 
-.login-section label {
+.login-section label, .form-section label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
-.login-section input {
+.login-section input, .form-section input {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
@@ -43,7 +43,7 @@ body {
     border-radius: 4px;
 }
 
-.login-section button {
+.login-section button, .form-section button {
     padding: 0.5rem 2rem;
     background-color: #8BC34A;
     color: #fff;
@@ -52,7 +52,7 @@ body {
     cursor: pointer;
 }
 
-.login-section button:hover {
+.login-section button:hover, .form-section button:hover {
     background-color: #7CB342;
 }
 
@@ -73,4 +73,20 @@ body {
 .image-section img {
     max-width: 100%;
     height: auto;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.dashboard-container h1 {
+    margin-bottom: 2rem;
 }
